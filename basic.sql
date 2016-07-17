@@ -13,3 +13,9 @@ DB>Properties>Files>Owner>sa
 
 When deleting DB:
 checkbox "close existing connection" - checked
+
+AutoIncrement>Property>Identity Specification>Yes
+
+Tools>Options>Designers node>Uncheck
+Prevent saving changes that require table recreation.
+
