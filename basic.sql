@@ -19,3 +19,6 @@ AutoIncrement>Property>Identity Specification>Yes
 Tools>Options>Designers node>Uncheck
 Prevent saving changes that require table recreation.
 
+types:
+ntext - for a big text
+nvarchar(MAX) - when it is small - nvarchar, when it is big - ntext
