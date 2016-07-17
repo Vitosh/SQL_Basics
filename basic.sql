@@ -22,3 +22,6 @@ Prevent saving changes that require table recreation.
 types:
 ntext - for a big text
 nvarchar(MAX) - when it is small - nvarchar, when it is big - ntext
+
+Default value:
+Date>Properties>Default Value or Binding>GETDATE()
