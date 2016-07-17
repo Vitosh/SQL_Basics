@@ -29,4 +29,5 @@ Date>Properties>Default Value or Binding>GETDATE()
 To add new key:
 select column in table in diagram;
 select indexes/keys from dropdown;
-Is Unique-> Yes
+select column;
+Is Unique-> Yes;
