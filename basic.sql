@@ -25,3 +25,8 @@ nvarchar(MAX) - when it is small - nvarchar, when it is big - ntext
 
 Default value:
 Date>Properties>Default Value or Binding>GETDATE()
+
+To add new key:
+select column in table in diagram;
+select indexes/keys from dropdown;
+Is Unique-> Yes
