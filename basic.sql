@@ -34,3 +34,5 @@ Is Unique-> Yes;
 
 USE MYDB;
 GRANT SELECT ON dbo.Main TO UserName;
+USE MYDB;
+GRANT UPDATE ON dbo.Main TO UserName;
