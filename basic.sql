@@ -31,3 +31,6 @@ select column in table in diagram;
 select indexes/keys from dropdown;
 select column;
 Is Unique-> Yes;
+
+USE MYDB;
+GRANT SELECT ON dbo.Main TO UserName;
