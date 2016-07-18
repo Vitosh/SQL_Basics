@@ -36,3 +36,8 @@ USE MYDB;
 GRANT SELECT ON dbo.Main TO UserName;
 USE MYDB;
 GRANT UPDATE ON dbo.Main TO UserName;
+
+Rename column:
+sp_rename 'table_name.old_column_name', 'new_column_name' , 'COLUMN';
+Rename table:
+sp_rename 'old_table_name','new_table _name';
