@@ -24,7 +24,7 @@ FROM
 	[Blog].[Dbo].[Posts] ON [Blog].[Dbo].[Users].id = [Blog].[dbo].[Posts].AuthorID
 --========================================
 --========================================	
-	SELECT
+SELECT
 	UserName, FullName
 FROM
 	[Blog].[dbo].[Users]
@@ -50,3 +50,14 @@ ORDER BY Id ASC;
 GO
 --========================================
 --========================================
+USE Blog
+SELECT
+	u.UserName, u.FullName
+FROM
+	Users u
+WHERE
+	Id IN(SELECT
+		p.AuthorId
+	FROM
+		Posts p)
+ORDER BY Id DESC
