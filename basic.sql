@@ -33,9 +33,9 @@ select column;
 Is Unique-> Yes;
 
 USE MYDB;
-GRANT SELECT ON dbo.Main TO UserName;
-USE MYDB;
-GRANT UPDATE ON dbo.Main TO UserName;
+GRANT SELECT ON dbo.UsageCounter TO user_my;
+GRANT UPDATE ON dbo.UsageCounter TO user_my;
+GRANT INSERT ON dbo.UsageCounter TO user_my;
 
 Rename column:
 sp_rename 'table_name.old_column_name', 'new_column_name' , 'COLUMN';
